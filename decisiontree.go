@@ -5,20 +5,20 @@ import (
 	"strconv"
 )
 
-// Definição da estrutura do nó
+// Node structure definition
 type node struct {
-	attributeID int     // Identifica o node: 0=Pclass, 1=Sex, 2=Age, 3=SibSp, 4=Parch, 5=Fare, 6=Embarked, 7=Survided, 8=!Survived
-	parent      *node   // Pai do nó
-	path        []int   // Caminho da root até ao nó
-	leaves      []*node // Folhas do nó
+	attributeID int     // Identifies node: 0=Pclass, 1=Sex, 2=Age, 3=SibSp, 4=Parch, 5=Fare, 6=Embarked, 7=Survided, 8=!Survived
+	parent      *node   // Node parent
+	path        []int   // Path from root to node
+	leaves      []*node // Node's leaves
 }
 
-// Definição da estrutura da arvore
+// Tree structure defenition
 type tree struct {
 	root *node
 }
 
-// Imprime nó
+// Prints node
 func (n *node) Print() {
 	fmt.Println("attributeID: ", n.attributeID)
 	fmt.Println("parent: ", n.parent.attributeID)
@@ -32,13 +32,13 @@ func (n *node) Print() {
 	}
 }
 
-// Define nós de sobrevivencia ou não sobrevivencia
-func sobrevivencia(train [][]string) int {
+// Survival state nodes definition
+func survival(train [][]string) int {
 	attrID := 0
 	surv := 0
 	nSurv := 0
-	for _, linha := range train {
-		if linha[1] == "1" {
+	for _, row := range train {
+		if row[1] == "1" {
 			surv++
 		} else {
 			nSurv++
@@ -52,8 +52,8 @@ func sobrevivencia(train [][]string) int {
 	return attrID
 }
 
-// cria um nó
-func criarNo(attrID int, nodeInput *node) *node {
+// Creates a node
+func createNode(attrID int, nodeInput *node) *node {
 	node := &node{
 		attributeID: attrID,
 		parent:      nodeInput,
@@ -63,143 +63,143 @@ func criarNo(attrID int, nodeInput *node) *node {
 	return node
 }
 
-// Selecciona as linhas do ficheiro csv cujo valor do atributo especifico é igual ao especificado
+// Selects the rows of the CSV file where the attribute's value is equal to the specified value
 func selectValue(train [][]string, attributeID int, attributeValue string) [][]string {
 	aux := make([][]string, 0)
-	if attributeID == 4 { // Se o atributo for Age
+	if attributeID == 4 { // If attribute is Age
 		aux2 := make([]float64, 0)
 
-		for _, linha := range train {
-			i, _ := strconv.ParseFloat(linha[4], 64)
+		for _, row := range train {
+			i, _ := strconv.ParseFloat(row[4], 64)
 			aux2 = append(aux2, i)
 		}
 		if attributeValue == "x<=10" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 10 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "10<x<=20" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 20 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "20<x<=30" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 30 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "30<x<=40" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 40 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "40<x<=50" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 50 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "50<x<=60" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 60 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "60<x<=70" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 70 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] > 70 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		}
-	} else if attributeID == 7 { // Se o atributo for Fare
+	} else if attributeID == 7 { // If attribute is Fare
 		aux2 := make([]float64, 0)
 
-		for _, linha := range train {
-			i, _ := strconv.ParseFloat(linha[7], 64)
+		for _, row := range train {
+			i, _ := strconv.ParseFloat(row[7], 64)
 			aux2 = append(aux2, i)
 		}
 		if attributeValue == "x<=9" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 9 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "9<x<=16" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 16 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "16<x<=26" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 26 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else if attributeValue == "26<x<=200" {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] <= 200 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		} else {
-			for i, linha := range train {
+			for i, row := range train {
 				if aux2[i] > 200 {
-					aux = append(aux, linha)
+					aux = append(aux, row)
 				}
 			}
 		}
-	} else { // Restantes atributos
-		for _, linha := range train {
-			if linha[attributeID] == attributeValue {
-				aux = append(aux, linha)
+	} else { // Remaining attributes
+		for _, row := range train {
+			if row[attributeID] == attributeValue {
+				aux = append(aux, row)
 			}
 		}
 	}
 	return aux
 }
 
-// Adiciona folhas a um nó - chama função do ficheiro relevancia.go
-func popularNo(nodeInput *node, train [][]string) {
-	// Caso o nó atual seja um nó de estado final, retorna
+// Adds leaves to a node - calls function from relevance.go file
+func populateNode(nodeInput *node, train [][]string) {
+	// If actual node is a final state node, returns
 	if nodeInput.attributeID == 7 || nodeInput.attributeID == 8 {
 		return
 	}
 
-	// Adiciona o nó atual ao caminho do nó
+	// Adds the actual node to the node's path
 	nodeInput.path = append(nodeInput.path, nodeInput.attributeID)
 
-	// Função auxiliar que:
-	// 1 - escolhe atributo para cada folha do nó atual;
-	// 2 - caso não existam atributos relevantes calcula sobrevivencia e utiliza o resultado como atributo;
-	// 3 - cria o nó com esse atributo;
-	// 4 - adiciona o novo nó à lista de folhas do nó atual;
-	// 5 - volta a chamar a função utilizando o nó criado como argumento.
+	// Auxiliary function that:
+	// 1 - Picks attribute for each leaf of the actual node;
+	// 2 - If relevant attributes don't exist calculates survival and uses the result as the attribute;
+	// 3 - Creates the node with that attribute;
+	// 4 - Adds the new node to the list of leaves of the actual node;
+	// 5 - Calls populateNode function using the created node as argument.
 	aux := func(trains [][][]string) {
 		for i, t := range trains {
-			attrID := escolherAtributo(t, nodeInput.path, train)
+			attrID := pickAttribute(t, nodeInput.path, train)
 			if attrID == -1 {
-				attrID = sobrevivencia(train)
+				attrID = survival(train)
 			}
-			nodeAux := criarNo(attrID, nodeInput)
+			nodeAux := createNode(attrID, nodeInput)
 			nodeInput.leaves = append(nodeInput.leaves, nodeAux)
-			popularNo(nodeInput.leaves[i], t)
+			populateNode(nodeInput.leaves[i], t)
 		}
 	}
 
-	// Faz a separação dos passageiros consoante o atributo e envia cada um dos novos grupos de
-	// passageiros para a função auxiliar
+	// Separates the passengers based on the attribute and sends
+	// each one of the new group of passengers to auxiliary function
 	if nodeInput.attributeID == 0 {
 		train1 := make([][]string, 0)
 		train2 := make([][]string, 0)
@@ -294,18 +294,18 @@ func popularNo(nodeInput *node, train [][]string) {
 	}
 }
 
-// Cria uma arvore de decisão
-func criacaoArvoreDecisao(arvoreDecisao *tree, train [][]string) {
-	if arvoreDecisao.root == nil {
-		attrID := escolherAtributo(train, nil, nil)
-		arvoreDecisao.root = &node{
+// Creates a decision tree
+func decisionTreeCreation(decisionTree *tree, train [][]string) {
+	if decisionTree.root == nil {
+		attrID := pickAttribute(train, nil, nil)
+		decisionTree.root = &node{
 			attributeID: attrID,
 			parent:      nil,
 			path:        nil,
 			leaves:      make([]*node, 0),
 		}
-		popularNo(arvoreDecisao.root, train)
+		populateNode(decisionTree.root, train)
 	} else {
-		fmt.Println("Arvore acabada")
+		fmt.Println("Finished tree")
 	}
 }

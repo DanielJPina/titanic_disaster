@@ -8,18 +8,18 @@ import (
 	"os"
 )
 
-// Carrega ficheiros do tipo CSV e retorna uma slice de slices de strings
-func carregarFicheiro(inputFile string) [][]string {
-	// Ler ficheiro train.csv
+// Load CSV files and return slice of slices of strings
+func loadFiles(inputFile string) [][]string {
+	// read train.csv file
 	file, err := os.Open(inputFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// cria um reader
+	// create a reader
 	r := csv.NewReader(file)
 
-	// Ler Cada linha do ficheiro csv
+	// Read each row from the CSV file
 	records, err := r.ReadAll()
 	if err != nil {
 		log.Fatal(err)
@@ -27,18 +27,18 @@ func carregarFicheiro(inputFile string) [][]string {
 	return records
 }
 
-// Exporta uma slice de slices de strings para um ficheiro CSV
-func exportarCSV(output [][]string) {
-	// cria ficheiro submission.csv na pasta do executável
+// Exports a slice of slices of strings from a CSV file
+func exportCSV(output [][]string) {
+	// Creat submission.csv file on the executable's folder
 	file, _ := os.Create("submission.csv")
 
-	// cria um writer
+	// Creates a writer
 	w := csv.NewWriter(file)
 
-	// Escreve no ficheiro linha a linha
+	// Writes on file row by row
 	for _, record := range output {
 		if err := w.Write(record); err != nil {
-			log.Fatalln("Erro a escrever para o ficheiro csv:", err)
+			log.Fatalln("Error to write to csv file:", err)
 		}
 	}
 
@@ -49,11 +49,12 @@ func exportarCSV(output [][]string) {
 	}
 }
 
-func exportarTxt(texto string) {
-	// cria ficheiro decisionTree.txt na pasta do executável
+// Exports a string to a .txt file
+func exportTxt(texto string) {
+	// Creates decisionTree.txt file on the executable's folder
 	file, _ := os.Create("decisionTree.txt")
 
-	// cria um writer
+	// Creates a writer
 	w := bufio.NewWriter(file)
 
 	_, err := fmt.Fprintf(w, "%s", texto)

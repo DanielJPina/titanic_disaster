@@ -1,43 +1,45 @@
 package main
 
 func main() {
-	// Carregar ficheiros - chama função do ficheiro inputoutput.go
-	registosTrain := carregarFicheiro("train.csv")
-	registosTest := carregarFicheiro("test.csv")
+	// Load files - calls functions from inputoutput.go file
+	trainCSV := loadFiles("train.csv")
+	testCSV := loadFiles("test.csv")
 
-	// Dados dos ficheiros csv sem cabeçalho
-	trainInicial := registosTrain[1:]
-	testInical := registosTest[1:]
+	// CSV files data without header
+	trainInitial := trainCSV[1:]
+	testInitial := testCSV[1:]
 
-	// Adicionar coluna de survived no test - chama função do ficheiro tratamentodados.go
-	testInicialCompleto := adicionarColunaSurvived(testInical)
+	// Add survived column testInitial - calls function from datatreatment.go file
+	completedTestInitial := addSurvivedColumn(testInitial)
 
-	// Tratamento de espaços em branco dos ficheiros - chama função do ficheiro tratamentodados.go
-	alterarBranco(trainInicial)
-	alterarBranco(testInicialCompleto)
+	// Treatment of files missing data - calls function from datatreatment.go file
+	missingDataChange(trainInitial)
+	missingDataChange(completedTestInitial)
 
-	// Remoção de atributos não relevantes dos ficheiros - chama função do ficheiro tratamentodados.go
-	train := eliminarAtributos(trainInicial)
-	test := eliminarAtributos(testInicialCompleto)
+	// Non relevant data deletion from files - calls function from datatreatment.go file
+	train := deleteAttribute(trainInitial)
+	test := deleteAttribute(completedTestInitial)
 
-	//Inicialização da arvore de decisão
-	arvoreDecisao := &tree{
+	// Decision tree inicialization
+	decisionTree := &tree{
 		root: nil,
 	}
 
-	// Algoritmo de criação de arvore de decisão - chama função do ficheiro arvoredecisao.go
-	criacaoArvoreDecisao(arvoreDecisao, train)
+	// Decision tree creation algorithm - calls function from decisiontree.go file
+	decisionTreeCreation(decisionTree, train)
 
-	// Desenha e imprime a arvore de decisão - chama função do ficheiro desenhaarvore.go
-	desenho := desenharArvore(arvoreDecisao.root)
-	exportarTxt(desenho)
+	// Draw a tree - calls function from drawtree.go file
+	drawing := drawTree(decisionTree.root)
 
-	// Analisar passageiros treino - chama função do ficheiro analise.go
-	analisarTreino(train, arvoreDecisao)
+	// Print a drawing to a txt file - calls function from inputoutput.go file
+	exportTxt(drawing)
 
-	// Analisar passageiros teste - chama função do ficheiro analise.go
-	output := analisarPassageiros(test, arvoreDecisao)
+	// Analise passengers from train - calls function from analise.go file
+	analiseTrain(train, decisionTree)
 
-	// Converter output para ficheiro submission.csv - chama função do ficheiro inputoutput.go
-	exportarCSV(output)
+	// Analise passengers from test - calls function from analise.go file
+	output := analisePassengers(test, decisionTree)
+
+	// Convert output to submission.csv file - calls function from inputoutput.go file
+	exportCSV(output)
 }
