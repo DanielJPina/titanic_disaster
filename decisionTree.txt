@@ -1,0 +1,3198 @@
+Sex
+├── Pclass
+│   ├── Age
+│   │   ├── Survived
+│   │   ├── Parch
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   ├── SibSp
+│   │   │   ├── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   ├── Parch
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   ├── Parch
+│   │   │   ├── Embarked
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Fare
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   ├── Parch
+│   │   │   ├── SibSp
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Fare
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   ├── Parch
+│   │   │   ├── Embarked
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Fare
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   ├── Survived
+│   │   │   └── Survived
+│   │   └── Survived
+│   ├── Age
+│   │   ├── Survived
+│   │   ├── Survived
+│   │   ├── Fare
+│   │   │   ├── Survived
+│   │   │   ├── Embarked
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Parch
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       └── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Parch
+│   │   │   │   │   ├── Embarked
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Parch
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── SibSp
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   └── Survived
+│   │   ├── Fare
+│   │   │   ├── Survived
+│   │   │   ├── Embarked
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Parch
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       └── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Parch
+│   │   │   │   │   ├── Embarked
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Parch
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── SibSp
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   └── Survived
+│   │   ├── Fare
+│   │   │   ├── Survived
+│   │   │   ├── Embarked
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Parch
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       └── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Parch
+│   │   │   │   │   ├── Embarked
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Parch
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── SibSp
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   └── Survived
+│   │   ├── Fare
+│   │   │   ├── Survived
+│   │   │   ├── Embarked
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Parch
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       └── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Parch
+│   │   │   │   │   ├── Embarked
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Parch
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── SibSp
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   └── Survived
+│   │   ├── Fare
+│   │   │   ├── Survived
+│   │   │   ├── Embarked
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Parch
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       ├── Survived
+│   │   │   │       └── Survived
+│   │   │   ├── SibSp
+│   │   │   │   ├── Parch
+│   │   │   │   │   ├── Embarked
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   ├── Survived
+│   │   │   │   │   │   └── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Parch
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   ├── Parch
+│   │   │   │   ├── Embarked
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── SibSp
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       ├── Survived
+│   │   │   │   │       └── Survived
+│   │   │   │   ├── SibSp
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   ├── Survived
+│   │   │   │   │   └── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   ├── Survived
+│   │   │   │   └── Survived
+│   │   │   └── Survived
+│   │   └── Survived
+│   └── Fare
+│       ├── Embarked
+│       │   ├── Survived
+│       │   ├── Age
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── Survived
+│       │   └── SibSp
+│       │       ├── Age
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── Age
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── Died
+│       │       ├── Died
+│       │       ├── Died
+│       │       ├── Died
+│       │       └── Died
+│       ├── Age
+│       │   ├── Parch
+│       │   │   ├── Survived
+│       │   │   ├── SibSp
+│       │   │   │   ├── Embarked
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Embarked
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   ├── Parch
+│       │   │   ├── Embarked
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Embarked
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Survived
+│       │   │   │   └── SibSp
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       └── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   ├── Embarked
+│       │   │   ├── SibSp
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── Parch
+│       │   │       ├── SibSp
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   └── Died
+│       │   │       ├── SibSp
+│       │   │       │   ├── Survived
+│       │   │       │   ├── Survived
+│       │   │       │   ├── Survived
+│       │   │       │   ├── Survived
+│       │   │       │   ├── Survived
+│       │   │       │   ├── Survived
+│       │   │       │   └── Survived
+│       │   │       ├── Survived
+│       │   │       ├── Survived
+│       │   │       ├── Survived
+│       │   │       ├── Survived
+│       │   │       └── Survived
+│       │   ├── SibSp
+│       │   │   ├── Embarked
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Parch
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       └── Survived
+│       │   │   ├── Embarked
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Parch
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       └── Died
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   ├── Embarked
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── SibSp
+│       │   │       ├── Parch
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   └── Died
+│       │   │       ├── Parch
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   └── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       └── Died
+│       │   ├── Embarked
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── SibSp
+│       │   │       ├── Parch
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   └── Died
+│       │   │       ├── Parch
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   ├── Died
+│       │   │       │   └── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       ├── Died
+│       │   │       └── Died
+│       │   ├── SibSp
+│       │   │   ├── Embarked
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Parch
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       ├── Survived
+│       │   │   │       └── Survived
+│       │   │   ├── Embarked
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Parch
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       ├── Died
+│       │   │   │       └── Died
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   └── Survived
+│       ├── Embarked
+│       │   ├── SibSp
+│       │   │   ├── Age
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Age
+│       │   │   │   ├── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   └── Died
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   ├── Age
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── Survived
+│       │   └── Age
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Survived
+│       │       │   ├── Survived
+│       │       │   ├── Survived
+│       │       │   ├── Survived
+│       │       │   ├── Survived
+│       │       │   └── Survived
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── SibSp
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       └── Died
+│       ├── Embarked
+│       │   ├── SibSp
+│       │   │   ├── Age
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Age
+│       │   │   │   ├── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   ├── Parch
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   ├── Died
+│       │   │   │   │   └── Died
+│       │   │   │   └── Died
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   └── Survived
+│       │   ├── Age
+│       │   │   ├── Survived
+│       │   │   ├── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   ├── Parch
+│       │   │   │   ├── SibSp
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   ├── Survived
+│       │   │   │   │   └── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   ├── Survived
+│       │   │   │   └── Survived
+│       │   │   └── Survived
+│       │   └── SibSp
+│       │       ├── Age
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   └── Died
+│       │       ├── Age
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   ├── Survived
+│       │       │   │   └── Survived
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   └── Died
+│       │       ├── Died
+│       │       ├── Age
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   ├── Parch
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   ├── Died
+│       │       │   │   └── Died
+│       │       │   └── Died
+│       │       ├── Age
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   ├── Died
+│       │       │   └── Died
+│       │       ├── Died
+│       │       └── Died
+│       └── Died
+└── Age
+    ├── SibSp
+    │   ├── Survived
+    │   ├── Survived
+    │   ├── Survived
+    │   ├── Survived
+    │   ├── Parch
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Survived
+    │   └── Survived
+    ├── SibSp
+    │   ├── Parch
+    │   │   ├── Embarked
+    │   │   │   ├── Fare
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   └── Fare
+    │   │   │       ├── Died
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Fare
+    │   │   ├── Parch
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Pclass
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Parch
+    │   │   │       ├── Embarked
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Embarked
+    │   │   │       │   ├── Survived
+    │   │   │       │   ├── Survived
+    │   │   │       │   └── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       └── Survived
+    │   │   ├── Pclass
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Parch
+    │   │   │       ├── Embarked
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Embarked
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Parch
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Survived
+    │   │   └── Survived
+    │   ├── Pclass
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Died
+    │   ├── Parch
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Died
+    │   └── Died
+    ├── Parch
+    │   ├── Fare
+    │   │   ├── SibSp
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Embarked
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Pclass
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   └── Embarked
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   └── Died
+    │   ├── SibSp
+    │   │   ├── Pclass
+    │   │   │   ├── Fare
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Fare
+    │   │   │   ├── Survived
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Survived
+    │   │   │   │       ├── Survived
+    │   │   │   │       └── Survived
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Survived
+    │   │   │   │       ├── Survived
+    │   │   │   │       └── Survived
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Survived
+    │   │   │   │       ├── Survived
+    │   │   │   │       └── Survived
+    │   │   │   └── Survived
+    │   │   ├── Fare
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── SibSp
+    │   │   ├── Fare
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Survived
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Died
+    │   ├── Died
+    │   ├── Died
+    │   └── Died
+    ├── Fare
+    │   ├── Pclass
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   ├── Parch
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   └── Pclass
+    │   │   │       ├── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── SibSp
+    │   │   │   ├── Survived
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Pclass
+    │   │   │   │       ├── Survived
+    │   │   │   │       ├── Survived
+    │   │   │   │       └── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Survived
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Parch
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   └── Embarked
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── SibSp
+    │   │   │   ├── Survived
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── Survived
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Pclass
+    │   │   ├── Parch
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Parch
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Parch
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   └── Parch
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Parch
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   └── Parch
+    │       ├── Embarked
+    │       │   ├── Died
+    │       │   ├── Died
+    │       │   └── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       └── Died
+    ├── Fare
+    │   ├── Pclass
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   ├── Parch
+    │   │   ├── SibSp
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Pclass
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── SibSp
+    │   │   │       ├── Survived
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Survived
+    │   │   │       │   ├── Survived
+    │   │   │       │   └── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       └── Survived
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Parch
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   └── Embarked
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── SibSp
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Pclass
+    │   │   ├── Parch
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Parch
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Parch
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   └── Parch
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Parch
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   └── Parch
+    │       ├── Embarked
+    │       │   ├── Died
+    │       │   ├── Died
+    │       │   └── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       └── Died
+    ├── Fare
+    │   ├── Pclass
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   ├── Parch
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   └── Pclass
+    │   │   │       ├── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── SibSp
+    │   │   │       ├── Survived
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Survived
+    │   │   │       │   ├── Survived
+    │   │   │       │   └── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       └── Survived
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Parch
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   └── Embarked
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── SibSp
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Pclass
+    │   │   ├── Parch
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Parch
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Parch
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   └── Parch
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Parch
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   └── Parch
+    │       ├── Embarked
+    │       │   ├── Died
+    │       │   ├── Died
+    │       │   └── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       └── Died
+    ├── Fare
+    │   ├── Pclass
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   ├── Parch
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Pclass
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   └── Pclass
+    │   │   │       ├── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── Embarked
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── Survived
+    │   │   │   └── SibSp
+    │   │   │       ├── Survived
+    │   │   │       ├── Pclass
+    │   │   │       │   ├── Survived
+    │   │   │       │   ├── Survived
+    │   │   │       │   └── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       ├── Survived
+    │   │   │       └── Survived
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Parch
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   └── Embarked
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       ├── SibSp
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   ├── Died
+    │   │   │       │   └── Died
+    │   │   │       └── SibSp
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           ├── Died
+    │   │   │           └── Died
+    │   │   ├── SibSp
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Pclass
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Embarked
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Pclass
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── SibSp
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       ├── Died
+    │   │   │       └── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   ├── Died
+    │   │   └── Died
+    │   ├── Pclass
+    │   │   ├── Parch
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── SibSp
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── SibSp
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       ├── Died
+    │   │   │   │       └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Embarked
+    │   │   │   │   ├── Survived
+    │   │   │   │   ├── Survived
+    │   │   │   │   └── Survived
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   ├── Parch
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   ├── Died
+    │   │   │   │   │   └── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── SibSp
+    │   │   │   │   ├── Embarked
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   ├── Survived
+    │   │   │   │   │   └── Survived
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   ├── Died
+    │   │   │   │   └── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   ├── Died
+    │   │   │   └── Died
+    │   │   └── SibSp
+    │   │       ├── Parch
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Embarked
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Parch
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   ├── Died
+    │   │       │   │   └── Died
+    │   │       │   ├── Died
+    │   │       │   └── Parch
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       ├── Died
+    │   │       │       └── Died
+    │   │       ├── Embarked
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       ├── Parch
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   ├── Died
+    │   │       │   └── Died
+    │   │       ├── Died
+    │   │       └── Died
+    │   └── Parch
+    │       ├── Embarked
+    │       │   ├── Died
+    │       │   ├── Died
+    │       │   └── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       ├── Died
+    │       └── Died
+    └── Embarked
+        ├── Died
+        ├── Died
+        └── Pclass
+            ├── Died
+            ├── Died
+            └── Died
